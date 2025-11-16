@@ -1,5 +1,5 @@
-color-contrast-chrome
-Color Contrast Analyzer Extension for Google Chrome
+contrast-visualizer
+Contrast Visualizer is a renaming for Color Contrast Analyzer Extension for Google Chrome, to clarify the function of the extension and to use a more unique searchable string.
 
 This browser extension was originally written by Greg Krauss during his time at NCSU, so NCSU owns the original copyright (very permissively licensed), but they are no longer maintaining it.
 
