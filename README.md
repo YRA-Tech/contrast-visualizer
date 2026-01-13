@@ -17,33 +17,32 @@ After chatting with Greg, my team took their original code and
   To address this we borrow a scaling technique from playwright.js (see https://playwright.dev/docs/api/class-elementhandle#element-handle-screenshot, https://github.com/microsoft/playwright/blob/main/packages/playwright-core/src/server/chromium/crPage.ts)
 
 1.1.2
-
 adjusted z-index for the draggable area to the maximum allowed value of 2147483647 to help ensure it will not be positioned underneath other elements
+
 1.1.1
-
 adjusted CSS for Windows buttons
+
 1.1.0
-
 added ability to download the image analysis to a local file
+
 1.03
-
 fixed a bug where the WCAG 2 and pixel radius settings were not sticking once you clicked the rescan button
+
 1.02
-
 added better support for processing local files within Chrome
-1.01
 
+1.01
 added keyboard support for the popup window
 increased the z-index value of the draggable area
+
 1.00
-
 compressed icon images and removed unused images
-0.60
 
+0.60
 fixed problem with extension not loading when the page was idle for too long
 made the layout screen more fluid
 added WCAG contrast ratio levels to the conformance level selector
 added the link to the help file
-0.53
 
+0.53
 initial commit
